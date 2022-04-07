@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Carousel</title>
+  <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+  <h1>PHOTOS</h1>
+  <div class="gallery">
+    <div class="gallery-container">
+      <img class="gallery-item gallery-item-1" src="./mountain2_compressed.jpg" data-index="1">
+      <img class="gallery-item gallery-item-2" src="./mountain_compressed.jpg" data-index="2">
+      <img class="gallery-item gallery-item-3" src="./bike_compressed.jpg" data-index="3">
+    </div>
+    <!-- <div class="text">Bike</div> -->
+    <div class="gallery-controls"></div>
+  </div>
+  <h1>VIDEO</h1>
+  <div class="video">
+    <video  autoplay loops controls>
+      <source src="gato.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg">
+      <track src="gato_subtitles_es.vtt" kind="subtitles" srclang="es" label="Spanish">
+      <track src="gato_subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+      Your browser does not support HTML video.
+    </video>
+  </div>
+  <script src="carousel.js"></script>
+</body>
+</html>
